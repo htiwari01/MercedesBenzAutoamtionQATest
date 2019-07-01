@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mercedese online shop test report">
+
+	<listeners>
+		<listener class-name="com.mercedeseonlineshop.extendreportlistener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="mercedese online shop Test Cases">
+		<classes>
+			<class name="com.mercedeseonlineshop.qa.pages.AddProductToCartTest"></class>
+			<class name="com.mercedeseonlineshop.qa.pages.ProductDescriptionPageTest"></class>
+			<class name="com.mercedeseonlineshop.qa.pages.ShoppingCartTest"></class>
+			<class name="com.mercedeseonlineshop.qa.pages.AddressAndDeliveryTest"></class>
+			<class name="com.mercedeseonlineshop.qa.pages.PaymentTypeTest"></class>
+			<class name="com.mercedeseonlineshop.qa.pages.VerificationAndOrderPlacementTest"></class>
+		</classes>
+	</test>
+</suite>
